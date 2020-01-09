@@ -1,7 +1,26 @@
+
 .App {
   text-align: center;
+  background-color: white;
+  margin: 0px;
+  font-family: KulimPark;
+  color: white;
+  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(rgb(0, 0, 0), #000000);
+  background-color: rgb(21, 83, 253);
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+  
+  min-height: 900px;
 }
 
+
+
+.Jah {
+  width: 50%;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  min-width: 600px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +55,60 @@
     transform: rotate(360deg);
   }
 }
+
+.Profile {
+  display: inline-flex;
+  text-align: left;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.ContentBox  {
+  display: initial;
+  margin: 0px;
+  padding: 10px;
+  border: WHITE 10px;
+  min-height: 100%;
+}
+.ImageBox {
+  margin-top: 40px;
+}
+
+.ContentBox p{
+  width: 100%;
+}
+.Display {
+  background-color: white;
+  color: black;
+
+}
+.DisplayItem {
+  padding: 10px;
+}
+#nav {
+  overflow: hidden;
+  padding: 0%;
+  margin: 0px;
+  background-color: black;
+  font-family: Courier; }
+
+#nav button {
+  float: center;
+  
+  font-size: 25px;
+  color: white;
+  border: 0px;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.Body {
+  white-space: pre-line;
+}
+
+#nav button:hover {
+  background-color:grey;
+  cursor: pointer;
+}
+

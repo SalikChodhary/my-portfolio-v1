@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'KulimPark';
+  src: local('KulimPark'), url(./fonts/KulimPark-ExtraLight.ttf) format('truetype');
+}
